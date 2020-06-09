@@ -1,0 +1,79 @@
+@media all and (max-width: 1000px) {
+    .main h1 {
+        font-size: 35px;
+    }
+    .main h2 {
+        font-size: 16px;
+    }
+    .main-bottom {
+        height: 110px;
+    }
+    .pro {
+        width: 45%;
+    }
+    .profile {
+        height: 1200px;
+       /* padding-left: 25px;*/
+    }
+}
+
+
+/* Untuk Smartphone */
+
+@media all and (max-width: 670px) {
+    .logo_kiri {
+        display: none;
+    }
+    .logo_kanan img {
+        height: 50px;
+        width: 60px;
+        padding: 8px 2px;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .profile {
+        height: 1900px;
+    }
+    .menu a {
+        font-size: 15px;
+        padding: 0 5px;
+    }
+    .header li {
+        font-size: 15px;
+        padding: 30px 5px;
+    }
+    .main-border {
+        height: 90px;
+    }
+    .main h1 {
+        font-size: 15px;
+    }
+    .main h2 {
+        font-size: 14px;
+    }
+    .main-bottom {
+        height: 150px;
+    }
+    .main-bottom p {
+        font-size: 12px;
+    }
+    .pro {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
+    .footer-menu p {
+        font-size: 10px;
+    }
+    input,
+    textarea {
+        width: 80%;
+        padding-left: 10px;
+    }
+    .contact-form {
+        width: 100%;
+        margin-left: 10px;
+    }
+}
